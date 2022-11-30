@@ -3,8 +3,8 @@
 
 <head>
   <title>Home</title>
-  <link rel="stylesheet" type="text/css" href="./css/home.css" />
   <link rel="stylesheet" type="text/css" href="./css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="./css/home.css" />
 </head>
 
 <body>

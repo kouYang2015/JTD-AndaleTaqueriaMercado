@@ -3,8 +3,8 @@
 
 <head>
   <title>Market</title>
-  <link rel="stylesheet" href="./css/market.css" />
   <link rel="stylesheet" href="./css/theme.css" />
+  <link rel="stylesheet" href="./css/market.css" />
 </head>
 
 <body>

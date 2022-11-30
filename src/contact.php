@@ -3,8 +3,8 @@
 
 <head>
   <title>Contact</title>
-  <link rel="stylesheet" href="./css/contact.css" />
   <link rel="stylesheet" href="./css/theme.css" />
+  <link rel="stylesheet" href="./css/contact.css" />
 </head>
 
 
