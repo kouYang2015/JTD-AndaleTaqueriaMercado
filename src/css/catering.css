@@ -1,0 +1,14 @@
+.title-fonts {
+  font-family: "Annie Use Your Telescope";
+}
+
+.info-container {
+  text-align: center;
+  font-family: "Helvetica";
+}
+
+.info-container p {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 5px 0px 10px 0px;
+}
