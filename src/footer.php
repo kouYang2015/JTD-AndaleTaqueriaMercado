@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/footer.css" />
+</head>
+
+<body>
+  <footer>
+    <img width="250px" height="250px" src="./images/footer_logo.png" />
+    <div class="footer-nav">
+      <ul>
+        <li><a href="home.php">Home</a></li>
+        <li><a href="menu.php">Menu</a></li>
+        <li><a href="catering.php">Catering</a></li>
+        <li><a href="market.php">Market</a></li>
+        <li><a href="about_us.php">About Us</a></li>
+        <li><a href="contact.php">Contact</a></li>
+        <li><a href="order.php">Order</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact-text">
+      <p><b>Contact</b></p>
+      <p class="text-overflow">
+        7700 Nicollet Avenue South Richfield, Minnesota 55423
+      </p>
+      <p>Restaurant: (612) 259-8868</p>
+      <p>Market: (612) 259-8929</p>
+    </div>
+    <div class="footer-hours-text">
+      <p><b>Restaurant Hours</b></p>
+      <p>Daily: 7am - 10pm</p>
+      <p><b>Market Hours</b></p>
+      <p>Daily: 6am - 10pm</p>
+    </div>
+    <div class="footer-img">
+      <img width="127px" height="165px" src="./images/guy_fieri.jpg" />
+      <p>Guy Approved!</p>
+    </div>
+  </footer>
+</body>
+
+</html>
