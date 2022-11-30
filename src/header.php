@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="./css/header.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <a href="home.php">
+        <img class="header-logo" src="images/backfilled.png" />
+      </a>
+      <div class="header-right-container">
+        <div>
+          <h1 class="header-text">Fresh Ingredients! Authentic Flavors!</h1>
+        </div>
+        <div>
+          <ul class="nav-bar">
+            <li><a href="home.php">Home</a></li>
+            <li><a href="menu.php">Menu</a></li>
+            <li><a href="catering.php">Catering</a></li>
+            <li><a href="market.php">Market</a></li>
+            <li><a href="about_us.php">About Us</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="order.php">Order</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+</body>
+
+</html>
