@@ -1,0 +1,58 @@
+footer {
+  display: flex;
+  margin-top: 150px;
+  background-color: #ff7d01;
+}
+
+.footer-nav {
+  margin: 20px 75px auto 10px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.footer-nav a:hover {
+  color: white;
+}
+
+.footer-nav li {
+  list-style-type: none;
+  margin: 0px 0px 5px 15px;
+}
+
+.footer-contact-text {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.footer-contact-text p {
+  margin: 5px 0px 0px 5px;
+}
+
+.text-overflow {
+  inline-size: 300px;
+}
+
+.footer-hours-text {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-hours-text b {
+  font-size: 18px;
+}
+
+.footer-img img {
+  position: relative;
+  top: 5px;
+  left: 850px;
+}
+
+.footer-img p {
+  position: relative;
+  top: 15px;
+  left: 865px;
+}

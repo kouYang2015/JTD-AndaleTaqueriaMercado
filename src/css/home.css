@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  height: 100vh;
+  background-color: #fff8e1;
+}
+
+.welcome {
+  margin-top: 50px;
+}
+
+.welcome-text {
+  font-size: 30px;
+  margin: 30px 250px 0px 250px;
+}
+
+.buttons {
+  margin: 30px 45px 30px 45px;
+  width: 200px;
+  height: 50px;
+  background-color: #abcf4c;
+  color: white;
+  border: none;
+}
+
+.buttons:hover {
+  border: 1px solid black;
+}
+
+.images-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row: auto;
+  gap: 30px;
+  margin: 50px 150px 0px 150px;
+  height: auto;
+}
+
+.images-container img {
+  width: 320px;
+  height: 245px;
+}

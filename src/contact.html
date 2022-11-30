@@ -1,10 +1,109 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Contact Us</title>
-  </head>
+
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" href="./css/contact.css" 
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/theme.css" /></head>
+  
+
+<body>
+  <header>
+    <div class="header">
+      <img width="465px" height="310px" src="./images/backfilled.png" />
+      <div>
+        <div>
+          <h1 class="header-text">Fresh Ingredients! Authentic Flavors!</h1>
+        </div>
+        <div>
+          <ul class="nav-bar">
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="catering.html">Catering</a></li>
+            <li><a href="market.html">Market</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="order.html">Order</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
 
   <body>
-    Stuff
+    <div class="container">
+      <h1 style="padding:15px;"> Contact</h1>
+      <div class="inner-container">
+        <h1>Andale Taqueria & Mercado</h1>
+        <h2>7700 Nicollet Avenue South</h2>
+        <h2>Richfield, Minnesota 55423</h2>
+        <div class="inner-inner-container">
+          <div class="inner-container-left">
+            <h1>Restaurant:</h1>
+            <h3>Telephone: (612)-258-8868</h3>
+            <h3>Fax: (612)-353-5067</h3>
+            <br />
+            <h3>Hours:</h3>
+            <h3>Monday - Sunday: 7am - 10pm</h3>
+          </div>
+          <div class="inner-container-right">
+            <h1>Market:</h1>
+            <h3>Telephone: (612)-259-8929</h3>
+            <h3>Fax: (612)-354-3813</h3>
+            <br />
+            <h3>Hours:</h3>
+            <h3>Daily: 6am - 10pm</h3>
+          </div>
+        </div>
+        <form class = "form">
+          <h1 style="text-align:center">Contact Us</h1>
+          <label for ="name"> First name:</label><br>
+          <input type = "text" id = "name" name = "name"><br>
+          <label for ="email"> Email:</label><br>
+          <input type = "text" id = "email" name = "email"><br>
+          <label for ="email"> Message:</label><br>
+          <textarea rows="4" cols="50" id = "message" name = "message"> </textarea><br>
+          <button type = "submit">Submit</button>
+        </form>
+      </div>
+    </div>
   </body>
+  <footer>
+    <img width="250px" height="250px" src="./images/footer_logo.png" />
+    <div class="footer-nav">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="catering.html">Catering</a></li>
+        <li><a href="market.html">Market</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="order.html">Order</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact-text">
+      <p><b>Contact</b></p>
+      <br />
+      <p class="text-overflow">
+        7700 Nicollet Avenue South Richfield, Minnesota 55423
+      </p>
+      <p>Restaurant: (612) 259-8868</p>
+      <p>Market: (612) 259-8929</p>
+    </div>
+    <div class="footer-hours-text">
+      <p><b>Restaurant Hours</b></p>
+      <br />
+      <p>Daily: 7am - 10pm</p>
+      <br />
+      <p><b>Market Hours</b></p>
+      <br />
+      <p>Daily: 6am - 10pm</p>
+    </div>
+    <div class="footer-img">
+      <img width="127px" height="165px" src="./images/guy_fieri.jpg" />
+      <p>Guy Approved!</p>
+    </div>
+  </footer>
+
 </html>
