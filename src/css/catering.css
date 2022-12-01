@@ -19,6 +19,7 @@ h2 {
 
 .catering-menu-container {
   text-align: center;
+  font-family: "Helvetica";
 }
 
 .catering-menu-info {
@@ -30,7 +31,7 @@ h2 {
   width: fit-content;
   min-width: 30%;
   max-width: 60%;
-  color: black;
+  color: white;
   font-size: 18px;
 }
 .catering-menu-info p:not(:first-child) {
