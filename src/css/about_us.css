@@ -1,0 +1,17 @@
+.info-container {
+  text-align: center;
+}
+
+.info-container p {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 5px 0px 10px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #abcf49;
+  width: fit-content;
+  min-width: 40%;
+  max-width: 75%;
+  padding: 10px 5% 10px 5%;
+  line-height: 1.5;
+}
