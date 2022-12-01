@@ -12,3 +12,27 @@
   font-size: 24px;
   margin: 5px 0px 10px 0px;
 }
+h2 {
+  font-size: 48px;
+  margin-top: 15px;
+}
+
+.catering-menu-container {
+  text-align: center;
+}
+
+.catering-menu-info {
+  text-align: left;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #abcf49;
+  width: fit-content;
+  min-width: 30%;
+  max-width: 60%;
+  color: black;
+  font-size: 18px;
+}
+.catering-menu-info p:not(:first-child) {
+  margin-top: 10px;
+}
