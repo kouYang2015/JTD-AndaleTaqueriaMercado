@@ -85,6 +85,9 @@ h1 {
 }
 
 .form button {
-  width: 5vw;
-  align-self: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fef8e0;
+  color: black;
 }
