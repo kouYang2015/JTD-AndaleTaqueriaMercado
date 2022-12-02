@@ -18,9 +18,9 @@
       We look forward to serving you soon!
     </p>
     <div>
-      <button class="buttons">View Our Menu</button>
-      <button class="buttons">View Our Menu</button>
-      <button class="buttons">View Our Menu</button>
+      <button class="buttons button">View Our Menu</button>
+      <button class="buttons button">View Our Menu</button>
+      <button class="buttons button">View Our Menu</button>
     </div>
     <h1>Gallery</h1>
     <div class="images-container">
