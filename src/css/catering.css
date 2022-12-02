@@ -1,10 +1,5 @@
-.title-fonts {
-  font-family: "Annie Use Your Telescope";
-}
-
 .info-container {
   text-align: center;
-  font-family: "Helvetica";
 }
 
 .info-container p {
@@ -19,7 +14,6 @@ h2 {
 
 .catering-menu-container {
   text-align: center;
-  font-family: "Helvetica";
 }
 
 .catering-menu-info {

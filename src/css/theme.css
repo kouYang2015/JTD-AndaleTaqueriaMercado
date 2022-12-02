@@ -4,6 +4,7 @@
 
 body {
   background-color: #fff8e1;
+  font-family: "Helvetica";
 }
 
 h1 {
@@ -27,4 +28,10 @@ button:hover {
 }
 button:active {
   opacity: 0.7;
+}
+.title-fonts {
+  font-family: "Annie Use Your Telescope";
+}
+h1 {
+  font-family: "Annie Use Your Telescope";
 }
