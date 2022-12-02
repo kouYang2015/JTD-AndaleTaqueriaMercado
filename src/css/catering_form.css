@@ -22,3 +22,35 @@
   font-size: 18px;
   width: 80%;
 }
+
+table {
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+table th {
+  text-align: right;
+}
+tr {
+  font-size: 30px;
+}
+td {
+  width: fit-content;
+}
+table:first-child td {
+  font-weight: bold;
+  text-align: right;
+}
+.text-input {
+  height: 45px;
+  font-size: 30px;
+  margin: 4px 8px 4px 0px;
+}
+.party-input {
+  text-align: left !important;
+}
+.party-input input {
+  width: 100px;
+  height: 45px;
+  font-size: 30px;
+  margin: 4px 8px 4px 0px;
+}

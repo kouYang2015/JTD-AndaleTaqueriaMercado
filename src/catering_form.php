@@ -16,7 +16,32 @@
   </div>
   <div class="catering_form-container">
     <form action="process_catering.php" method="post">
-
+      <table>
+        <tr>
+          <th> <label for="name">Name:</label></th>
+          <td>
+            <input class="text-input" title="Enter your name" type="text" id="name" name="name" size="20" placeholder="Full Name" required="true" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td>
+            <input class="text-input" title="Enter valid email address: email@something.com" type="text" id="email" name="email" size="20" placeholder="Email" pattern="[a-zA-Z0-9._]+@[a-z].+[a-z]" spellcheck="false" required="true" />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="phone">Phone:</label></th>
+          <td>
+            <input class="text-input" title="Enter a valid phone number: ########## or (###)-###-####" type="tel" id="phone" name="phone" size="20" placeholder="(###)-###-####" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" required="true" />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="party_size">Est party size:</label></th>
+          <td class="party-input">
+            <input title="Must be greater than 0" type="number" id="party_size" name="party_size" required="true" />
+          </td>
+        </tr>
+      </table>
       <input class="button" type=submit name="order" value="Submit" />
     </form>
   </div>
