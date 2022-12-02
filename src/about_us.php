@@ -19,6 +19,8 @@
       You won't be disappointed with our tacos, burritos, tortas, Menudo, and Tamales.
       Order online or give us a call and we will have your food ready for pick up. </p>
   </div>
+
+  <!-- HTML structure based off of https://www.w3schools.com/howto/howto_js_slideshow.asp-->
   <div class="slideshow-container">
     <div class="center-img">
       <div class="img-container fade-anim">
@@ -54,6 +56,7 @@
     <span class="dot" onclick="jumpslide(5)"></span>
   </div>
   <script>
+    //JS structure based off of https://www.w3schools.com/howto/howto_js_slideshow.asp
     let slideIndex = 1;
     showSlides(slideIndex);
 
