@@ -44,7 +44,7 @@
           <input type="text" id="email" name="email"><br>
           <label for="email"> Message:</label><br>
           <textarea rows="4" cols="50" id="message" name="message"> </textarea><br>
-          <button type="submit">Submit</button>
+          <button class="button" type="submit">Submit</button>
         </form>
       </div>
     </div>

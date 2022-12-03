@@ -15,17 +15,8 @@
   margin: 30px 250px 0px 250px;
 }
 
-.buttons {
+.button {
   margin: 30px 45px 30px 45px;
-  width: 200px;
-  height: 50px;
-  background-color: #abcf4c;
-  color: white;
-  border: none;
-}
-
-.buttons:hover {
-  border: 1px solid black;
 }
 
 .images-container {

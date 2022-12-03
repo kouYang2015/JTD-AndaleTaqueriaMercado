@@ -1,0 +1,100 @@
+.info-container {
+  text-align: center;
+  font-family: "Helvetica";
+}
+
+.info-container p {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 5px 0px 10px 0px;
+}
+
+.catering_form-container {
+  text-align: center;
+  font-family: "Helvetica";
+  background-color: #abcf49;
+  padding: 30px;
+  margin: 15px auto 0 auto;
+  font-size: 18px;
+  width: 60%;
+  min-width: 1000px;
+  max-width: 1100px;
+}
+.catering_form-container label {
+  font-size: 30px;
+}
+table {
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+table th {
+  text-align: right;
+}
+tr {
+  font-size: 30px;
+}
+table:first-child td {
+  font-weight: bold;
+  text-align: right;
+}
+.text-input {
+  height: 45px;
+  font-size: 30px;
+  margin: 4px 8px 4px 0px;
+}
+.party-input {
+  text-align: left !important;
+  width: 100px;
+  height: 45px;
+  font-size: 30px;
+  margin: 4px 8px 4px 0px;
+}
+#order_date {
+  font-size: 30px;
+  margin-right: 30px;
+}
+input[type="radio"] {
+  height: 30px;
+  width: 30px;
+  margin-top: -10px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+input[type="checkbox"] {
+  height: 30px;
+  width: 30px;
+  margin-top: -10px;
+  vertical-align: middle;
+}
+.checkbox-container {
+  text-align: left;
+}
+.checkbox-container div {
+  min-width: 100px;
+  display: inline-block;
+}
+.checkbox-container label {
+  display: inline-block;
+  min-width: 200px;
+  margin-right: 30px;
+}
+label[for="dessert2"] {
+  min-width: 75px;
+}
+div {
+  margin-top: 10px;
+}
+.small-cb-container label {
+  min-width: 100px;
+}
+.button {
+  margin-top: 30px;
+  background: #fefce0;
+  color: #abcf49;
+}
+.button:hover {
+  color: #abcf49;
+}
+h2 {
+  margin-top: 30px;
+}
