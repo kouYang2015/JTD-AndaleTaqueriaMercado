@@ -117,7 +117,7 @@
           <label for="dessert3">Tres Leche Cakes</label>
         </div>
       </div>
-      <input class="button" type=submit name="submit_catering" value="catering_request" />
+      <input class="button" type=submit name="submit_catering" value="Submit" />
     </form>
   </div>
 
