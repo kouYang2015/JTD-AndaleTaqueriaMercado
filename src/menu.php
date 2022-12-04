@@ -9,6 +9,20 @@
 
 <body>
   <?php include 'header.php'; ?>
+  <div id="sticky-nav" class="sidenav">
+    <a href="#meat-options">Carnes/Meat Options</a>
+    <a href="#alambres">Alambres</a>
+    <a href="#burritos">Burritos</a>
+    <a href="#tacos">Tacos</a>
+    <a href="#tortas">Tortas</a>
+    <a href="#quesadillas">Quesadillas</a>
+    <a href="#platillos">Platillos</a>
+    <a href="#specialties">Specialties</a>
+    <a href="#breakfast">Breakfast</a>
+    <a href="#kids-menu">Kids Menu​</a>
+    <a href="#sides">Sides</a>
+    <a href="#salsas">Salsas</a>
+  </div>
   <div class="top-container">
     <h1 class="title-fonts"> Menu </h1>
     <a href="order.php"><button type="submit" class="button" value="Order Now">Order Now</button></a>
@@ -67,7 +81,7 @@
   </div>
   <div class="container">
     <div class="alambres">
-      <h2>ALAMBRES</h2>
+      <h2 id="alambres">ALAMBRES</h2>
       <h3>Green and red bell peppers, white onions, bacon and hame prepared with your choice of meat,
         topped with melted mozzarella cheese and served over five double corn tortillas.
       </h3>
@@ -91,7 +105,7 @@
   </div>
   <div class="container">
     <div class="burritos">
-      <h2> BURRITOS</h2>
+      <h2 id="burritos">BURRITOS</h2>
       <h3>Mexican rice, refried pinto beans, sour cream, lettuce, mozzarella cheese and your choice of meat
         all wrapped in a flour tortilla. Served with pico de gallo and house made chips.
       </h3>
@@ -129,7 +143,7 @@
   </div>
   <div class="container">
     <div class="tacos">
-      <h2> TACOS</h2>
+      <h2 id="tacos">TACOS</h2>
       <h3>All tacos are served on fresh soft corn tortillas, garnished with fresh chopped cilantro,
         onions and limes.
       </h3>
@@ -160,7 +174,7 @@
   </div>
   <div class="container">
     <div class="tortas">
-      <h2> TORTAS</h2>
+      <h2 id="tortas">TORTAS</h2>
       <h3>Mexican sandwiches served on our house baked telera roll with queso fresco, refried pinto beans,
         mayonnaise, onions, lettuce, fresh tomatoes, avocado, jalapeños, and your choice of filling.
       </h3>
@@ -204,7 +218,7 @@
   </div>
   <div class="container">
     <div class="quesadillas">
-      <h2> QUESADILLAS</h2>
+      <h2 id="quesadillas">QUESADILLAS</h2>
       <h3>Flour tortilla filled with mozzarella cheese and your choice of meat, griddled to perfection.
         Served with a side of rice, beans, lettuce, pico de gallo and sour cream.
       </h3>
@@ -236,7 +250,7 @@
   </div>
   <div class="container">
     <div class="platillos">
-      <h2> PLATILLOS</h2>
+      <h2 id="platillos">PLATILLOS</h2>
       <h3>Your choice of any meat served with rice, refried pinto
         beans, lettuce, pico de gallo and a side of soft corn tortillas.
       </h3>
@@ -272,7 +286,7 @@
   </div>
   <div class="container">
     <div class="specialties">
-      <h2> SPECIALTIES</h2>
+      <h2 id="specialties">SPECIALTIES</h2>
       <h3>Your choice of any meat served with rice, refried pinto
         beans, lettuce, pico de gallo and a side of soft corn tortillas.
       </h3>
@@ -333,8 +347,8 @@
   </div>
   <div class="container">
     <div class="breakfast">
-      <h2> BREAKFAST $9.99</h2>
-      <h3> *SERVED ALL DAY*</h3>
+      <h2 id="breakfast">BREAKFAST $9.99</h2>
+      <h3>*SERVED ALL DAY*</h3>
       <div class="menu-item-inner-container">
         <div class="menu-item-inner-container-left">
           <p>CHILAQUILES</p>
@@ -377,7 +391,7 @@
   </div>
   <div class="container">
     <div class="kids-menu">
-      <h2> KIDS MENU</h2>
+      <h2 id="kids-menu">KIDS MENU</h2>
       <div class=" triple-container">
         <div class="triple-inner-container">
           <p> KIDS PLATILLO - $5.99</p>
@@ -398,7 +412,7 @@
   </div>
   <div class="container">
     <div class="sides">
-      <h2> SIDES</h2>
+      <h2 id="sides">SIDES</h2>
       <div class="menu-item-inner-container">
         <div class="menu-item-inner-container-left">
           <p>PICO DE GALLO - $1.99</p>
@@ -420,7 +434,7 @@
   </div>
   <div class="container">
     <div class="salsas">
-      <h2> SALSAS</h2>
+      <h2 id="salsas">SALSAS</h2>
       <div class=" triple-container">
         <div class="triple-inner-container">
           <p> SALSA TAQUERA (Mild)</p>
@@ -439,7 +453,29 @@
   </div>
   <button style="margin:10vh auto;" class="button" onclick="topFunction()" id="myBtn" title="Go to top">Return to top</button>
   <?php include 'footer.php'; ?>
-  <script src="./js/scroll-to-top.js"> </script>
+  <script src="./js/scroll-to-top.js">
+    var top = window.pageYOffset || document.documentElement.scrollTop
+    var valueOfScroll = $(document).scrollTop().valueOf();
+    if (top <= 7500) {
+      document.getElementById('sticky-nav').css({
+        'margin-left': "-135px"
+      });
+    } else {
+      document.getElementById('sticky-nav').css({
+        'margin-left': "20px"
+      });
+    }
+
+    if (top <= 7500) {
+      document.getElementById('sticky-nav').css({
+        'display': 'show'
+      });
+    } else {
+      document.getElementById('sticky-nav').css({
+        'display': 'none'
+      });
+    }
+  </script>
 </body>
 
 </html>
