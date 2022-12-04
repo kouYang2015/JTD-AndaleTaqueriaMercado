@@ -77,10 +77,10 @@
           <p>CARNE ASADA - $12.99</p>
           <p>CAMARON - $13.99</p>
         </div>
-        <div class="menu-item-inner-container-right">
+        <div class="menu-item-inner-container-right">s
           <p>CECINA - $12.99</p>
           <p>HAWAIIANO - $12.99</p>
-          <p class="title-fonts menu-item-description">Ham, pineapple and al pastor meat.</p>
+          <p class=" menu-item-description">Ham, pineapple and al pastor meat.</p>
           <p>LENGUA - $12.99</p>
           <p>SUADERO - $12.99</p>
         </div>
