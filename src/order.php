@@ -43,7 +43,7 @@
           <option value="Suadero $12.99">Suadero - $12.99</option>
         </select>
         <label for="alambres-quantity">Amount:</label>
-        <input class="text-input" type="number" id="alambres-quantity" name="alambres-quantity" min="1" max="25">
+        <input class="text-input" type="number" id="alambres-quantity" name="alambres-quantity" min="0" max="25">
       </div>
       <div>
         <label for="burritos"> Burritos:</label>
@@ -62,7 +62,7 @@
           <option value="Veggetariano $8.49">Veggetariano - $8.49</option>
         </select>
         <label for="burritos-quantity">Amount:</label>
-        <input class="text-input" type="number" id="burritos-quantity" name="burritos-quantity" min="1" max="25">
+        <input class="text-input" type="number" id="burritos-quantity" name="burritos-quantity" min="0" max="25">
       </div>
       <div>
         <label for="tacos"> Tacos:</label>
@@ -86,7 +86,7 @@
           <option value="Fish Taco $2.99">Fish Taco - $2.99</option>
         </select>
         <label for="tacos-quantity">Amount:</label>
-        <input class="text-input" type="number" id="tacos-quantity" name="tacos-quantity" min="1" max="25">
+        <input class="text-input" type="number" id="tacos-quantity" name="tacos-quantity" min="0" max="25">
       </div>
       <input class="button" type=submit name="submit_order" value="Submit" />
     </form>

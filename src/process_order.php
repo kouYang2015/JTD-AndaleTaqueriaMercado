@@ -17,11 +17,11 @@ $tacos = $_POST['tacos'];
 $tacos = preg_replace("#[^0-9\.,]#", '', $tacos); // Formats post output to just the numbers and decimal
 $tacos_quantity = $_POST['tacos-quantity'];
 
-$alambres = $alambres * $alambres_quantity; // Alambres total
 
-$burritos = $burritos * $burritos_quantity; // Burritos total
+$alambres = floatval($alambres) * floatval($alambres_quantity); // Alambres total
+$burritos = floatval($burritos) * floatval($burritos_quantity); // Burritos totals
+$tacos = floatval($tacos) * floatval($tacos_quantity); // Tacos total
 
-$tacos = $tacos * $tacos_quantity; // Tacos total
 
 $total = $alambres + $burritos + $tacos;
 ?>
@@ -29,13 +29,25 @@ $total = $alambres + $burritos + $tacos;
 <body>
     <?php include 'header.html'; ?>
     <div>
-        <?php echo "Alambres: " . "$" . $alambres ?>
+        <?php if ($alambres > 0) {
+            echo "Alambres: " . "$" . $alambres;
+        }
+        ?>
         <br />
-        <?php echo "Burritos: " . "$" . $burritos; ?>
+        <?php if ($burritos > 0) {
+            echo "Burritos: " . "$" . $burritos;
+        }
+        ?>
         <br />
-        <?php echo "Tacos: " . "$" . $tacos; ?>
+        <?php if ($tacos > 0) {
+            echo "Tacos: " . "$" . $tacos;
+        }
+        ?>
         <br />
-        <?php echo "Total: " . "$" . $total ?>
+        <?php if ($total > 0) {
+            echo "Total: " . "$" . $total;
+        }
+        ?>
         <br />
     </div>
     <?php include 'footer.html'; ?>
