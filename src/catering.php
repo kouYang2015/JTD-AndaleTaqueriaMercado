@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <?php include 'header.php'; ?>
+  <?php include 'header.html'; ?>
   <div class="info-container">
     <h1 class="title-fonts">Catering</h1>
     <p>Click button below to make a catering inquiry request.</p>
@@ -61,7 +61,7 @@
       <p><strong>CHURROS</strong></p>
     </div>
   </div>
-  <?php include 'footer.php'; ?>
+  <?php include 'footer.html'; ?>
 </body>
 
 </html>

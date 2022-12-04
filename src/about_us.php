@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <?php include 'header.php'; ?>
+  <?php include 'header.html'; ?>
   <div class="info-container">
     <h1 class="title-fonts">About Us</h1>
     <p>We serve all authentic Mexican food that you will find being sold on the streets of Mexico.
@@ -90,7 +90,7 @@
       showSlides(slideIndex = n);
     }
   </script>
-  <?php include 'footer.php'; ?>
+  <?php include 'footer.html'; ?>
 </body>
 
 </html>

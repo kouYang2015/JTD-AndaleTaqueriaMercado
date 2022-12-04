@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <?php include 'header.php'; ?>
+  <?php include 'header.html'; ?>
   <div class="container">
     <h1 class="welcome">Welcome to Andale Taqueria &#38; Mercado</h1>
     <p class="welcome-text">
@@ -34,7 +34,7 @@
       <img src="./images/backfilled.png" />
     </div>
   </div>
-  <?php include 'footer.php'; ?>
+  <?php include 'footer.html'; ?>
 </body>
 
 </html>

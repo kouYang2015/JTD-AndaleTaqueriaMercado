@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <?php include 'header.php'; ?>
+  <?php include 'header.html'; ?>
   <div id="sticky-nav" class="sidenav">
     <a href="#meat-options">Carnes/Meat Options</a>
     <a href="#alambres">Alambres</a>
@@ -452,30 +452,8 @@
     </div>
   </div>
   <button style="margin:10vh auto;" class="button" onclick="topFunction()" id="myBtn" title="Go to top">Return to top</button>
-  <?php include 'footer.php'; ?>
-  <script src="./js/scroll-to-top.js">
-    var top = window.pageYOffset || document.documentElement.scrollTop
-    var valueOfScroll = $(document).scrollTop().valueOf();
-    if (top <= 7500) {
-      document.getElementById('sticky-nav').css({
-        'margin-left': "-135px"
-      });
-    } else {
-      document.getElementById('sticky-nav').css({
-        'margin-left': "20px"
-      });
-    }
-
-    if (top <= 7500) {
-      document.getElementById('sticky-nav').css({
-        'display': 'show'
-      });
-    } else {
-      document.getElementById('sticky-nav').css({
-        'display': 'none'
-      });
-    }
-  </script>
+  <?php include 'footer.html'; ?>
+  <script src="./js/scroll-to-top.js">  </script>
 </body>
 
 </html>
