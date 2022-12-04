@@ -8,9 +8,9 @@
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include 'header.html'; ?>
     <div>Content Here</div>
-    <?php include 'footer.php'; ?>
+    <?php include 'footer.html'; ?>
 </body>
 
 </html>

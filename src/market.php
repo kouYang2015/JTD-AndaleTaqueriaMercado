@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <?php include 'header.php'; ?>
+  <?php include 'header.html'; ?>
   <div>
     <h1 style="text-align: center; padding: 30px">Market</h1>
     <div class="container">
@@ -34,7 +34,7 @@
     </div>
     <div class="slider"><img src="./images/backfilled.png" /></div>
   </div>
-  <?php include 'footer.php'; ?>
+  <?php include 'footer.html'; ?>
 </body>
 
 </html>

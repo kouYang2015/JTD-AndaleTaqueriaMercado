@@ -6,9 +6,9 @@
 </head>
 
 <body>
-    <?php
-    echo "TODO: add php script";
-    ?>
+    <?php include 'header.html'; ?>
+    <div>Content Here</div>
+    <?php include 'footer.html'; ?>
 </body>
 
 </html>

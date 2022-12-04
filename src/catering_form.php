@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <?php include 'header.php'; ?>
+  <?php include 'header.html'; ?>
   <div class="info-container">
     <h1 class="title-fonts">Catering</h1>
     <p>This is an inquiry only&#33;</p>
@@ -121,7 +121,7 @@
     </form>
   </div>
 
-  <?php include 'footer.php'; ?>
+  <?php include 'footer.html'; ?>
 </body>
 
 </html>
