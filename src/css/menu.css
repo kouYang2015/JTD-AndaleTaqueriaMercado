@@ -14,6 +14,7 @@
   gap: 30px;
   overflow: hidden;
   margin-top: 5vh;
+  color: white;
 }
 
 .menu-items {
@@ -37,13 +38,21 @@
 .menu-items p:last-child {
   padding-bottom: 15px;
 }
+h2 {
+  font-size: 48px;
+  font-family: "Annie Use Your Telescope";
+}
+h3 {
+  font-size: 30px;
+}
 
 .container {
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto 0 auto;
   display: flex;
-  min-width: 20%;
-  max-width: 40%;
+  min-width: 40%;
   flex-direction: column;
-  margin: auto;
 }
 .menu-item-inner-container {
   display: flex;
@@ -51,27 +60,21 @@
   padding: 25px;
   background-color: #abcf49;
   margin: 15px 0px 15px 0px;
-}
-
-.menu-item-inner-container-left {
-  margin: 0 25px;
-  font-size: 24px;
   color: white;
-  width: 50%;
 }
+.menu-item-inner-container h3,
+.menu-item-inner-container p {
+  margin-bottom: 10px;
+}
+.menu-item-inner-container-left,
 .menu-item-inner-container-right {
   margin: 0 25px;
-  font-size: 24px;
   color: white;
   width: 50%;
 }
 
 .alambres {
   margin-top: 15px;
-}
-
-.menu-item-description {
-  font-size: 16px;
 }
 
 .triple-container {
@@ -85,11 +88,13 @@
 
 .triple-inner-container {
   margin: 0 25px;
-  font-size: 24px;
   color: white;
   width: 33%;
 }
 
+strong {
+  font-size: 24px;
+}
 p {
-  font-family: "Helvetica";
+  font-size: 20px;
 }
