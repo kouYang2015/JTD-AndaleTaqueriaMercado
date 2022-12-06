@@ -29,26 +29,28 @@ $total = $alambres + $burritos + $tacos;
 <body>
     <?php include 'header.html'; ?>
     <div>
-        <?php if ($alambres > 0) {
-            echo "Alambres: " . "$" . $alambres;
-        }
-        ?>
-        <br />
-        <?php if ($burritos > 0) {
-            echo "Burritos: " . "$" . $burritos;
-        }
-        ?>
-        <br />
+        <div>
+            <?php if ($alambres > 0) {
+                echo "Alambres: " . "$" . $alambres;
+            }
+            ?>
+        </div>
+        <div>
+            <?php if ($burritos > 0) {
+                echo "Burritos: " . "$" . $burritos;
+            }
+            ?>
+        </div>
         <?php if ($tacos > 0) {
             echo "Tacos: " . "$" . $tacos;
         }
         ?>
-        <br />
-        <?php if ($total > 0) {
-            echo "Total: " . "$" . $total;
-        }
-        ?>
-        <br />
+        <div>
+            <?php if ($total > 0) {
+                echo "Total: " . "$" . $total;
+            }
+            ?>
+        </div>
     </div>
     <?php include 'footer.html'; ?>
 </body>

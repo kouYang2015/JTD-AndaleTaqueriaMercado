@@ -11,7 +11,6 @@
   <?php include 'header.html'; ?>
   <div class="info-container">
     <h1 class="title-fonts">Order</h1>
-    <p>This is an inquiry only&#33;</p>
     <p>We will send you an estimate cost and time based on your request within 1&#45;3 business days.</p>
   </div>
   <div class="order-form-container">
@@ -28,8 +27,8 @@
         <label for="phone">&#42;Phone:</label>
         <input class="text-input" title="Enter a valid phone number: ########## or (###)-###-####" type="tel" id="phone" name="phone" size="20" placeholder="(###)-###-####" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" required="true" />
       </div>
-      <div>
-        <label for="alambres"> Alambres:</label>
+      <div id="duplicatediv" class="duplicate">
+        <label " for=" alambres"> Alambres:</label>
         <select class="text-input" id="alambres" name="alambres">
           <option value=""></option>
           <option value="Al Pastor $12.99">Al Pastor - $12.99</option>
@@ -91,8 +90,6 @@
       <input class="button" type=submit name="submit_order" value="Submit" />
     </form>
   </div>
-
-
   <?php include 'footer.html'; ?>
 </body>
 

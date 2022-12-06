@@ -36,15 +36,16 @@
             <h3>Daily: 6am - 10pm</h3>
           </div>
         </div>
-        <form class="form">
+        <form class="form" action="process_contact.php" method="post">
           <h1 style="text-align:center">Contact Us</h1>
-          <label for="name"> First name:</label><br>
-          <input type="text" id="name" name="name"><br>
+          <label for="name">Full Name:</label><br>
+          <input type="text" id="name" name="name" required="true" placeholder="Name"><br>
           <label for="email"> Email:</label><br>
-          <input type="text" id="email" name="email"><br>
+          <input title="Enter valid email address: email@something.com" type="text" id="email" name="email" size="20" placeholder="Email" pattern="[a-zA-Z0-9._]+@[a-z].+[a-z]" spellcheck="false" required="true" />
+          <br />
           <label for="email"> Message:</label><br>
-          <textarea rows="4" cols="50" id="message" name="message"> </textarea><br>
-          <button class="button" type="submit">Submit</button>
+          <textarea rows="4" cols="50" id="message" name="message" placeholder="Enter your message"> </textarea><br>
+          <button class="button" type="submit" name="submit_contact">Submit</button>
         </form>
       </div>
     </div>
