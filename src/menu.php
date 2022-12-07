@@ -453,7 +453,7 @@
   </div>
   <button style="margin:10vh auto;" class="button" onclick="topFunction()" id="myBtn" title="Go to top">Return to top</button>
   <?php include 'footer.html'; ?>
-  <script src="./js/scroll-to-top.js">  </script>
+  <script src="./js/scroll-to-top.js"> </script>
 </body>
 
 </html>
