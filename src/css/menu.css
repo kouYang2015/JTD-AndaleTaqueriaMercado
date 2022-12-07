@@ -100,19 +100,19 @@ p {
 }
 .sidenav {
   display: block;
-  width: 270px;
+  width: fit-content;
+  max-width: 20%;
   position: fixed;
   z-index: 1;
-  top: 250px;
-  left: 10px;
+  top: 25%;
   background: #abcf49;
 }
 
 .sidenav a {
-  text-align: center;
+  text-align: left;
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 18px;
   color: #fefce0;
   display: block;
 }
