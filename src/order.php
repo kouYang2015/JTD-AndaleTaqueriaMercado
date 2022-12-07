@@ -11,7 +11,6 @@
   <?php include 'header.html'; ?>
   <div class="info-container">
     <h1 class="title-fonts">Order</h1>
-    <p>We will send you an estimate cost and time based on your request within 1&#45;3 business days.</p>
   </div>
   <div class="order-form-container">
     <form action="process_order.php" method="post">
