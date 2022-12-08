@@ -43,77 +43,77 @@
       <div class="checkbox-container">
         <h2>Entree:</h2>
         <div>
-          <input type="checkbox" id="entree1" name="entree[]" value="taco_bar" />
+          <input type="checkbox" id="entree1" name="entree[]" value="Taco Bar" />
           <label for="entree1">Taco Bar</label>
-          <input type="checkbox" id="entree2" name="entree[]" value="nacho_bar" />
+          <input type="checkbox" id="entree2" name="entree[]" value="Nacho Bar" />
           <label for="entree2">Nacho Bar</label>
-          <input type="checkbox" id="entree3" name="entree[]" value="taquitos_flautas" />
+          <input type="checkbox" id="entree3" name="entree[]" value="Taquitos Or Flautas" />
           <label for="entree3">Taquitos Or Flautas</label>
         </div>
         <div>
-          <input type="checkbox" id="entree4" name="entree[]" value="fajita_bar" />
+          <input type="checkbox" id="entree4" name="entree[]" value="Fajita Bar" />
           <label for="entree4">Fajita Bar</label>
-          <input type="checkbox" id="entree5" name="entree[]" value="enchilada" />
+          <input type="checkbox" id="entree5" name="entree[]" value="Enchilada" />
           <label for="entree5">Enchilada</label>
-          <input type="checkbox" id="entree6" name="entree[]" value="quesadillas" />
+          <input type="checkbox" id="entree6" name="entree[]" value="Quesadillas" />
           <label for="entree6">Quesadillas</label>
         </div>
       </div>
       <div class="checkbox-container">
         <h2>Entree Meat Choice:</h2>
         <div>
-          <input type="checkbox" id="meat1" name="meat[]" value="al_pastor" />
+          <input type="checkbox" id="meat1" name="meat[]" value="Al Pastor" />
           <label for="meat1">Al Pastor</label>
-          <input type="checkbox" id="meat2" name="meat[]" value="carnitas" />
+          <input type="checkbox" id="meat2" name="meat[]" value="Carnitas" />
           <label for="meat2">Carnitas</label>
-          <input type="checkbox" id="meat3" name="meat[]" value="chorizo" />
+          <input type="checkbox" id="meat3" name="meat[]" value="Chorizo" />
           <label for="meat3">Chorizo</label>
         </div>
         <div>
-          <input type="checkbox" id="meat4" name="meat[]" value="grilled_chicken" />
+          <input type="checkbox" id="meat4" name="meat[]" value="Grilled Chicken" />
           <label for="meat4">Grilled Chicken</label>
-          <input type="checkbox" id="meat5" name="meat[]" value="carne_asada" />
+          <input type="checkbox" id="meat5" name="meat[]" value="Carne Asada" />
           <label for="meat5">Carne Asada</label>
-          <input type="checkbox" id="meat6" name="meat[]" value="barbacoa" />
+          <input type="checkbox" id="meat6" name="meat[]" value="Barbacoa" />
           <label for="meat6">Barbacoa</label>
         </div>
         <div>
-          <input type="checkbox" id="meat7" name="meat[]" value="pollo_ala_mexicana" />
+          <input type="checkbox" id="meat7" name="meat[]" value="Pollo a la Mexicana" />
           <label for="meat7">Pollo a la Mexicana</label>
-          <input type="checkbox" id="meat8" name="meat[]" value="pollo_ranchero" />
+          <input type="checkbox" id="meat8" name="meat[]" value="Pollo Ranchero" />
           <label for="meat8">Pollo Ranchero</label>
         </div>
       </div>
       <div class="checkbox-container">
         <h2>Salad:</h2>
         <div>
-          <input type="checkbox" id="salad1" name="salad[]" value="cactus_leaf" />
+          <input type="checkbox" id="salad1" name="salad[]" value="Cactus Leaf" />
           <label for="salad1">Cactus Leaf Salad</label>
-          <input type="checkbox" id="salad2" name="salad[]" value="house_mexican" />
+          <input type="checkbox" id="salad2" name="salad[]" value="House Mexican" />
           <label for="salad2">House Mexican Salad</label>
         </div>
       </div>
       <div class="checkbox-container">
         <h2>Beverages:</h2>
         <div class="small-cb-container">
-          <input type="checkbox" id="beverages1" name="beverages[]" value="horchata" />
+          <input type="checkbox" id="beverages1" name="beverages[]" value="Horchata" />
           <label for="beverages1">Horchata</label>
-          <input type="checkbox" id="beverages2" name="beverages[]" value="tamarind_water" />
+          <input type="checkbox" id="beverages2" name="beverages[]" value="Tamarind Water" />
           <label for="beverages2">Tamarind Water</label>
-          <input type="checkbox" id="beverages3" name="beverages[]" value="hibiscus_water" />
+          <input type="checkbox" id="beverages3" name="beverages[]" value="Hibiscus Water" />
           <label for="beverages3">Hibiscus Water</label>
-          <input type="checkbox" id="beverages4" name="beverages[]" value="jarritos" />
+          <input type="checkbox" id="beverages4" name="beverages[]" value="Jarritos" />
           <label for="beverages4">Jarritos</label>
         </div>
       </div>
       <div class="checkbox-container">
         <h2>Dessert:</h2>
         <div class="small-cb-container">
-          <input type="checkbox" id="dessert1" name="dessert[]" value="churros" />
+          <input type="checkbox" id="dessert1" name="dessert[]" value="Churros" />
           <label for="dessert1">Churros</label>
-          <input type="checkbox" id="dessert2" name="dessert[]" value="flan" />
+          <input type="checkbox" id="dessert2" name="dessert[]" value="Flan" />
           <label for="dessert2">Flan</label>
-          <input type="checkbox" id="dessert3" name="dessert[]" value="tres_leches" />
+          <input type="checkbox" id="dessert3" name="dessert[]" value="Tres Leches" />
           <label for="dessert3">Tres Leche Cakes</label>
         </div>
       </div>
