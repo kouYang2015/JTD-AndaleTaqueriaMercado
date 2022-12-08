@@ -63,61 +63,43 @@ $total = $alambres + $burritos + $tacos + $quesadillas + $platillos + $breakfast
     <?php include 'header.html'; ?>
     <h1 class="title-fonts" style="text-align: center;margin-top:50px;"> Order Confirmation</h1>
     <div class=" order-recipt">
-        <div class="order-item">
-            <?php if ($alambres > 0) {
-                echo "Alambres: " . "$" . $alambres;
-            }
-            ?>
-        </div>
-        <div class="order-item">
-            <?php if ($burritos > 0) {
-                echo "Burritos: " . "$" . $burritos;
-            }
-            ?>
-        </div>
-        <div class="order-item">
-            <?php if ($tacos > 0) {
-                echo "Tacos: " . "$" . $tacos;
-            }
-            ?>
-        </div>
-        <div class="order-item">
-            <?php if ($quesadillas > 0) {
-                echo "Quesadillas: " . "$" . $quesadillas;
-            }
-            ?>
-        </div>
-        <div class="order-item">
-            <?php if ($platillos > 0) {
-                echo "Platillos: " . "$" . $platillos;
-            }
-            ?>
-        </div>
-        <div class="order-item">
-            <?php if ($breakfast > 0) {
-                echo "Breakfast: " . "$" . $breakfast;
-            }
-            ?>
-        </div>
-        <div class="order-item">
-            <?php if ($kids > 0) {
-                echo "Kids: " . "$" . $kids;
-            }
-            ?>
-        </div>
-        <div class="order-item">
-            <?php if ($sides > 0) {
-                echo "Sides: " . "$" . $sides;
-            }
-            ?>
-        </div>
-        <br />
-        <div class="order-item">
-            <?php if ($total > 0) {
-            ?><strong><?php echo "Total: " . "$" . $total; ?></strong><?php
-                                                                    }
-                                                                        ?>
-        </div>
+        <?php if ($alambres > 0) {
+            echo "Alambres: " . "$" . $alambres; ?><br /><?php
+                                                        }
+                                                            ?>
+        <?php if ($burritos > 0) {
+            echo "Burritos: " . "$" . $burritos; ?><br /><?php
+                                                        }
+                                                            ?>
+        <?php if ($tacos > 0) {
+            echo "Tacos: " . "$" . $tacos; ?><br /><?php
+                                                }
+                                                    ?>
+        <?php if ($quesadillas > 0) {
+            echo "Quesadillas: " . "$" . $quesadillas; ?><br /><?php
+                                                            }
+                                                                ?>
+        <?php if ($platillos > 0) {
+            echo "Platillos: " . "$" . $platillos; ?><br /><?php
+                                                        }
+                                                            ?>
+        <?php if ($breakfast > 0) {
+            echo "Breakfast: " . "$" . $breakfast; ?><br /><?php
+                                                        }
+                                                            ?>
+        <?php if ($kids > 0) {
+            echo "Kids: " . "$" . $kids; ?><br /><?php
+                                                }
+                                                    ?>
+        <?php if ($sides > 0) {
+            echo "Sides: " . "$" . $sides; ?><br /><?php
+                                                }
+                                                    ?>
+
+        <?php if ($total > 0) {
+        ?><strong style="margin-top:15px;"><?php echo "Total: " . "$" . $total; ?></strong><?php
+                                                                                        }
+                                                                                            ?>
     </div>
     <?php include 'footer.html'; ?>
 </body>
