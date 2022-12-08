@@ -49,6 +49,7 @@ $sides_quantity = $_POST['sides-quantity'];
 
 $alambres = floatval($alambres) * floatval($alambres_quantity);
 $burritos = floatval($burritos) * floatval($burritos_quantity);
+$tacos = floatval($tacos) * floatval($tacos_quantity);
 $quesadillas = floatval($quesadillas) * floatval($quesadillas_quantity);
 $platillos = floatval($platillos) * floatval($platillos_quantity);
 $breakfast = floatval($breakfast) * floatval($breakfast_quantity);
