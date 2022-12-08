@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/theme.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 style="padding: 15px">Contact</h1>
+      <div class="inner-container">
+        <h1>Andale Taqueria &amp; Mercado</h1>
+        <h2>7700 Nicollet Avenue South</h2>
+        <h2>Richfield, Minnesota 55423</h2>
+        <div class="inner-inner-container">
+          <div class="inner-container-left">
+            <h1>Restaurant:</h1>
+            <h3>Telephone: (612)-258-8868</h3>
+            <h3>Fax: (612)-353-5067</h3>
+            <br />
+            <h3>Hours:</h3>
+            <h3>Monday - Sunday: 7am - 10pm</h3>
+          </div>
+          <div class="inner-container-right">
+            <h1>Market:</h1>
+            <h3>Telephone: (612)-259-8929</h3>
+            <h3>Fax: (612)-354-3813</h3>
+            <br />
+            <h3>Hours:</h3>
+            <h3>Daily: 6am - 10pm</h3>
+          </div>
+        </div>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.9384165006727!2d-93.28103024842446!3d44.863548478995774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f625c1e406a0a1%3A0xe603ef77270107a0!2sAndale%20Taqueria%20%26%20Mercado%2C%207700%20County%20Rd%2052%2C%20Richfield%2C%20MN%2055423!5e0!3m2!1sen!2sus!4v1670523489501!5m2!1sen!2sus"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <form class="form" action="process_contact.php" method="post">
+          <h1 style="text-align: center">Contact Us</h1>
+          <label for="name">Full Name:</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required="true"
+            placeholder="Name"
+          /><br />
+          <label for="email"> Email:</label><br />
+          <input
+            title="Enter valid email address: email@something.com"
+            type="text"
+            id="email"
+            name="email"
+            size="20"
+            placeholder="Email"
+            pattern="[a-zA-Z0-9._]+@[a-z].+[a-z]"
+            spellcheck="false"
+            required="true"
+          />
+          <br />
+          <label for="email"> Message:</label><br />
+          <textarea
+            rows="4"
+            cols="50"
+            id="message"
+            name="message"
+            placeholder="Enter your message"
+          >
+          </textarea
+          ><br />
+          <button class="button" type="submit" name="submit_contact">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
