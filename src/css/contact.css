@@ -95,3 +95,12 @@ h1 {
 h2 {
   font-family: "Annie Use Your Telescope";
 }
+.map-container {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 10px;
+}
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+}
