@@ -1,0 +1,15 @@
+.order-recipt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #abcf49;
+  width: 40%;
+  margin: auto;
+  padding: 15px;
+  margin-top: 5vh;
+}
+
+.order-item {
+  padding: 10px;
+}
