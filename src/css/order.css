@@ -38,3 +38,9 @@
 .button:hover {
   color: #abcf49;
 }
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 4vw;
+}
