@@ -8,6 +8,7 @@ body {
 }
 
 h1 {
+  font-family: "Annie Use Your Telescope";
   font-size: 72px;
 }
 
@@ -30,8 +31,5 @@ h1 {
   opacity: 0.7;
 }
 .title-fonts {
-  font-family: "Annie Use Your Telescope";
-}
-h1 {
   font-family: "Annie Use Your Telescope";
 }
