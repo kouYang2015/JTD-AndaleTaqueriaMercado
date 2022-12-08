@@ -1,18 +1,3 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 90vw;
-  background-color: #fec63d;
-  margin: auto;
-}
-
-.container p {
-  font-size: 24px;
-  padding: 15px 30px;
-}
-
 .slider {
   display: flex;
   margin: 100px;
@@ -22,4 +7,21 @@
   margin: auto;
   width: 50vw;
   height: 40vh;
+}
+.info-container {
+  text-align: center;
+}
+
+.info-container p {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 5px 0px 10px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #abcf49;
+  width: fit-content;
+  min-width: 40%;
+  max-width: 75%;
+  padding: 10px 5% 10px 5%;
+  line-height: 1.5;
 }
