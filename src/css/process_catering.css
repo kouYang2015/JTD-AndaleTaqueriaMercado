@@ -1,0 +1,24 @@
+.catering-review-container {
+  align-content: center;
+  text-align: center;
+  width: 80%;
+  margin: 10px auto 10px auto;
+  background: #abcf49;
+}
+
+p {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  font-family: "Annie Use Your Telescope";
+  font-size: 48px;
+  margin-top: 15px;
+  color: white;
+}
