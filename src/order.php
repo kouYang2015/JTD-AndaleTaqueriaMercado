@@ -27,6 +27,11 @@
         <label for="phone">&#42;Phone:</label>
         <input class="text-input" title="Enter a valid phone number: ########## or (###)-###-####" type="tel" id="phone" name="phone" size="20" placeholder="(###)-###-####" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" required="true" />
       </div>
+      <div>
+        <label for="order_date">&#42;Order Date:</label>
+        <input type="date" id="order_date" name="order_date" required="true" />
+        <input type="time" id="order_time" name="order_time" min="09:00" max="18:00" required>
+      </div>
       <div class="order-item">
         <div>
           <label for=" alambres"> Alambres:</label>
